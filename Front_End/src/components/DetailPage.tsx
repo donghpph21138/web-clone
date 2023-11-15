@@ -34,7 +34,7 @@ const DetailPage = () => {
                       alt=""
                     />
                   </div>
-                  {/* <div className="single-prd-item">
+                  <div className="single-prd-item">
                     <img
                       className="img-fluid"
                       src="src/assets/img/category/s-p1.jpg"
@@ -47,7 +47,7 @@ const DetailPage = () => {
                       src="src/assets/img/category/s-p1.jpg"
                       alt=""
                     />
-                  </div> */}
+                  </div>
                 </div>
               </div>
               <div className="col-lg-5 offset-lg-1">

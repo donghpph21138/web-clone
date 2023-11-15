@@ -120,27 +120,27 @@
     // Template
 
     var base_html =
-        '<span className="irs">' +
-        '<span className="irs-line" tabindex="0"><span className="irs-line-left"></span><span className="irs-line-mid"></span><span className="irs-line-right"></span></span>' +
-        '<span className="irs-min">0</span><span className="irs-max">1</span>' +
-        '<span className="irs-from">0</span><span className="irs-to">0</span><span className="irs-single">0</span>' +
+        '<span class="irs">' +
+        '<span class="irs-line" tabindex="0"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span>' +
+        '<span class="irs-min">0</span><span class="irs-max">1</span>' +
+        '<span class="irs-from">0</span><span class="irs-to">0</span><span class="irs-single">0</span>' +
         '</span>' +
-        '<span className="irs-grid"></span>' +
-        '<span className="irs-bar"></span>';
+        '<span class="irs-grid"></span>' +
+        '<span class="irs-bar"></span>';
 
     var single_html =
-        '<span className="irs-bar-edge"></span>' +
-        '<span className="irs-shadow shadow-single"></span>' +
-        '<span className="irs-slider single"></span>';
+        '<span class="irs-bar-edge"></span>' +
+        '<span class="irs-shadow shadow-single"></span>' +
+        '<span class="irs-slider single"></span>';
 
     var double_html =
-        '<span className="irs-shadow shadow-from"></span>' +
-        '<span className="irs-shadow shadow-to"></span>' +
-        '<span className="irs-slider from"></span>' +
-        '<span className="irs-slider to"></span>';
+        '<span class="irs-shadow shadow-from"></span>' +
+        '<span class="irs-shadow shadow-to"></span>' +
+        '<span class="irs-slider from"></span>' +
+        '<span class="irs-slider to"></span>';
 
     var disable_html =
-        '<span className="irs-disable-mask"></span>';
+        '<span class="irs-disable-mask"></span>';
 
 
 
@@ -503,7 +503,7 @@
          * Appends slider template to a DOM
          */
         append: function () {
-            var container_html = '<span className="irs js-irs-' + this.plugin_count + ' ' + this.options.extra_classes + '"></span>';
+            var container_html = '<span class="irs js-irs-' + this.plugin_count + ' ' + this.options.extra_classes + '"></span>';
             this.$cache.input.before(container_html);
             this.$cache.input.prop("readonly", true);
             this.$cache.cont = this.$cache.input.prev();

@@ -5,6 +5,7 @@ import Contactpage from './components/ContactPage';
 import DetailPage from './components/DetailPage';
 import CategoryPage from './components/CategoryPage';
 import Websitelayout from "./pages/Websitelayout";
+import Cart from './components/Layout/Home/Cart';
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 function App() {
@@ -13,11 +14,12 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-      <Route path='/products' element={<DetailPage />} />  
-      <Route path="/blog" element={<BlogPage/>} />
-      <Route path="/contact" element={<Contactpage/>} />
-      <Route path="/login" element={<LoginPage/>} />
-      <Route path='/category' element={<CategoryPage />} />  
+        <Route path='/products' element={<DetailPage />} />  
+        <Route path="/blog" element={<BlogPage/>} />
+        <Route path="/contact" element={<Contactpage/>} />
+        <Route path="/login" element={<LoginPage/>} />
+        <Route path='/category' element={<CategoryPage />} />
+        <Route path='/cart' element={<Cart />} />    
         <Route path='/' element={<Websitelayout/>}>
             <Route index element={<HomePage />}/>
         </Route>

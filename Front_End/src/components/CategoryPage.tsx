@@ -158,7 +158,7 @@ const CategoryPage = () => {
 							</ul>
 						</form>
 					</div>
-					{/* <div className="common-filter">
+					<div className="common-filter">
 						<div className="head">Price</div>
 						<div className="price-range-area">
 							<div id="price-range"></div>
@@ -171,7 +171,7 @@ const CategoryPage = () => {
 								<div id="upper-value"></div>
 							</div>
 						</div>
-					</div> */}
+					</div>
 				</div>
 			</div>
 			<div className="col-xl-9 col-lg-8 col-md-7">

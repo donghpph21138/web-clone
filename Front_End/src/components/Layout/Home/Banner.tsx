@@ -25,7 +25,7 @@ const Banner = () => {
                                 </div>
                             </div>
                         
-                            {/* <div className="row single-slide">
+                            <div className="row single-slide">
                                 <div className="col-lg-5">
                                     <div className="banner-content">
                                         <h1>Nike New <br/>Collection!</h1>
@@ -42,7 +42,7 @@ const Banner = () => {
                                         <img className="img-fluid" src="img/banner/banner-img.png" alt=""/>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -765,7 +765,7 @@ const Banner = () => {
 								</div>
 							</div>
 						</div>
-						{/* <div className="single-exclusive-slider">
+						<div className="single-exclusive-slider">
 							<img className="img-fluid" src="src/assets/img/product/e-p1.png" alt=""/>
 							<div className="product-details">
 								<div className="price">
@@ -779,7 +779,7 @@ const Banner = () => {
 									<span className="add-text text-uppercase">Add to Bag</span>
 								</div>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</div>
 			</div>
